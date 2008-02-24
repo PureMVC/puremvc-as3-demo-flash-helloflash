@@ -1,0 +1,84 @@
+PureMVC-Enabling your Flash Installation.
+
+==========================================================================================
+STEP 1: Extract the Files.
+==========================================================================================
+
+Unzip the PureMVC.zip file to your filesystem or desktop. 
+
+You will find a new PureMVC_AS3_X_Y/src folder, containing:
+
+	license.txt		- the Creative Commons Attribution License
+	version.txt		- the PureMVC version information
+	PureMVC_AS3.swc 	- Flex / AIR Component (not useful to here, so remove!) 
+	puremvc-manifest	- Flex / AIR component manifest (not useful here)
+	asdoc/			- API documentation (open the index.html file)
+	org/			- The root of the org.puremvc.as3 package of classes
+	
+
+==========================================================================================
+STEP 2: Add the PureMVC Files to your Classpath
+------------------------------------------------------------------------------------------
+
+There are three ways you may go about adding PureMVC to your current Flash installation:
+
+	Method A - Copy the PureMVC package to the Flash Installation's Classes folder
+	Method B - Add the PureMVC source folder to your classpath in Preferences
+	Method C - Add the PureMVC source folder to your classpath per project
+
+Methods A & B ensure that the PureMVC source code will always be available, and are the 
+recommended way. Which you choose is up to you.
+
+Method C will only make the code available to the projects you choose. It will be more 
+work, while A or B add no overhead to your projects if you don't import and use any of
+the classes. 
+
+------------------------------------------------------------------------------------------
+METHOD A: COPY PurMVC PACKAGE TO FLASH INSTALLATION'S CLASSES FOLDER
+------------------------------------------------------------------------------------------
+Copy the PureMVC/org folder and everything in it to your Flash installation's Classes 
+folder. This folder is located at ${AppConfig}/ActionScript 3.0/Classes
+
+${AppConfig} is the language specific Configuration directory for your Flash installation. 
+
+For instance, if you installed Flash CS3 at its default location on a Windows machine, 
+then your ${AppConfig} = C:\Program Files\Adobe\Adobe Flash CS3\en\Configuration\
+
+You would copy 
+     
+     from:
+
+	PureMVC_AS3_X_Y/src/org 
+	
+       to: 
+
+	C:/Program Files/Adobe/Adobe Flash CS3/en/Configuration/ActionScript 3.0/Classes
+
+ yielding:
+
+	${AppConfig}/ActionScript 3.0/Classes/org/puremvc/as3/*
+
+
+------------------------------------------------------------------------------------------
+METHOD B: ADD THE PureMVC SOURCE CODE FOLDER TO YOUR CLASSPATH IN PREFERENCES 
+------------------------------------------------------------------------------------------
+In the Flash IDE, go to: 
+
+	Edit -> Preferences -> ActionScript 3.0 Settings ->
+
+	and add the PureMVC folder to your classpath by 
+	clicking '+' icon to add a classpath, select it,
+	then click the target icon to choose the folder.
+	
+
+
+------------------------------------------------------------------------------------------
+METHOD C: ADD THE PureMVC TO YOUR CLASSPATH ON A PER PROJECT BASIS 
+------------------------------------------------------------------------------------------
+In the Flash IDE, open the your FLA or Project, and go to: 
+
+	Edit -> Publish Settings -> ActionScript 3.0 Settings ->
+	
+	and add the PureMVC folder to your classpath by 
+	clicking '+' icon to add a classpath, select it,
+	then click the target icon to choose the folder.
