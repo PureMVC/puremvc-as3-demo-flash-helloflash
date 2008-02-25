@@ -1,6 +1,6 @@
-PureMVC AS3 Utility - Undo
-By ???? ??? <???.???@puremvc.org>
-Copyright(c) 2007 ??? ???, Some rights reserved.
+PureMVC AS3 / Flash Demo - HelloFlash
+By Cliff Hall <clifford.hall@puremvc.org>
+Copyright(c) 2007-08, Some rights reserved.
 --------------------------------------------------------------------------
  Reuse governed by Creative Commons Attribution 3.0 United States License
    View this license and the associated Creative Commons deed online at: 
