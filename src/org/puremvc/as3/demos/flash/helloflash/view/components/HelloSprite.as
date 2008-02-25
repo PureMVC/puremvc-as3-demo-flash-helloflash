@@ -1,10 +1,14 @@
-﻿package org.puremvc.as3.demos.flash.helloflash.view.components
+﻿/*
+ PureMVC AS3 / Flash Demo - HelloFlash
+ By Cliff Hall <clifford.hall@puremvc.org>
+ Copyright(c) 2007-08, Some rights reserved.
+ */
+package org.puremvc.as3.demos.flash.helloflash.view.components
 {
     import flash.events.*;
     import flash.geom.Rectangle;
 	import flash.utils.Timer;
     import flash.display.Sprite;
-	import fl.controls.Label;
 	import flash.events.TimerEvent;
 	
     public class HelloSprite extends Sprite {

@@ -1,4 +1,9 @@
-﻿package org.puremvc.as3.demos.flash.helloflash.view
+﻿/*
+ PureMVC AS3 / Flash Demo - HelloFlash
+ By Cliff Hall <clifford.hall@puremvc.org>
+ Copyright(c) 2007-08, Some rights reserved.
+ */
+package org.puremvc.as3.demos.flash.helloflash.view
 {
     import flash.events.Event;
     import flash.display.Stage;

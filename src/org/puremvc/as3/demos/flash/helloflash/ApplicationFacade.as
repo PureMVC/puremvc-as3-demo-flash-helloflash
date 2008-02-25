@@ -1,4 +1,9 @@
-﻿package org.puremvc.as3.demos.flash.helloflash
+﻿/*
+ PureMVC AS3 / Flash Demo - HelloFlash
+ By Cliff Hall <clifford.hall@puremvc.org>
+ Copyright(c) 2007-08, Some rights reserved.
+ */
+package org.puremvc.as3.demos.flash.helloflash
 {
     import org.puremvc.as3.interfaces.IFacade;
     import org.puremvc.as3.patterns.facade.Facade;
