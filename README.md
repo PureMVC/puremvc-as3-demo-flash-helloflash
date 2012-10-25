@@ -37,7 +37,7 @@ A lonlely little blue box appears, moving in a grey room. Interact with it.
 ## License
 * PureMVC AS3 / Flash Demo - HelloFlash - Copyright © 2008, Cliff Hall
 * PureMVC - Copyright © 2007-2008 Futurescale, Inc.
-All rights reserved.
+* All rights reserved.
 
 * Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 
